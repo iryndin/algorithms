@@ -47,4 +47,10 @@ public class LinkedListStack<T> implements IStack<T> {
     public int size() {
         return size;
     }
+
+    @Override
+    public void clear() {
+        head = null;
+        size=0;
+    }
 }

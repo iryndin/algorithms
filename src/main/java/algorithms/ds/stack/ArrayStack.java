@@ -50,4 +50,9 @@ public class ArrayStack<T> implements IStack<T> {
     public int size() {
         return top;
     }
+
+    @Override
+    public void clear() {
+        top=0;
+    }
 }

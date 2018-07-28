@@ -5,6 +5,7 @@ public interface IStack<T> {
     T pop();
     T peek();
     int size();
+    void clear();
 
     default boolean isEmpty() {
         return size() == 0;
